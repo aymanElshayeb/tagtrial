@@ -1,0 +1,115 @@
+<%@ taglib uri="http://bosch.com/taglib/custom" prefix="boschui"%>
+<%@ taglib uri="http://bosch.com/ioteco/taglib/custom" prefix="iotecoui"%>
+<%@page import="java.util.*"  %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Landing page</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="resources/css/index.css">
+	<link rel="stylesheet" href="resources/css/header.css">
+	<link rel="stylesheet" href="resources/css/nav-block.css">
+
+	<link rel="stylesheet" href="resources/css/content-block.css">
+	<link rel="stylesheet" href="resources/css/slider.css">
+	<link rel="stylesheet" href="resources/css/footer.css">
+
+	<script src="resources/js/vendor/modernizr-3.5.0.min.js"></script>
+
+	<!--[if lt IE 9]>
+
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+			<script>
+				document.write('<script src="resources/js/vendor/fallback/html5shiv.min.js"><\/script>')
+				document.write('<script src="resources/js/vendor/fallback/jquery-1.4.4.min.js"><\/script>')
+				document.write('<script src="resources/js/vendor/fallback/jquery-extra-selectors.js"><\/script>')
+				document.write('<script src="resources/js/vendor/fallback/selectivizr.js"><\/script>')
+				document.write('<script src="resources/js/vendor/fallback/rem.min.js"><\/script>')
+				document.write('<script src="resources/js/vendor/fallback/fallback.js"><\/script>')
+			</script>
+			<link rel="stylesheet" href="resources/css/fallback.css">
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+   <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+   </script>
+<![endif]-->
+
+	<style>
+		header,
+		nav,
+		section,
+		article,
+		aside,
+		footer {
+			display: block;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	
+	<boschui:header brandIdentifier="Bosch IoT Marketplace"  pageLinks="${{\"Canada\",\"Ottawa\", \"China\",\"Beijing\", \"France\",\"Paris\"}} "/>
+	
+	<boschui:primaryPageTeaser></boschui:primaryPageTeaser>
+	
+
+	<div class="nav-block-section">
+		<div class="divider">
+			<img src="./resources/img/icon/dot-white.png">
+			<img src="./resources/img/icon/divider-white.png">
+			<img src="./resources/img/icon/divider-gray.png">
+		</div>
+		
+		<iotecoui:iconcard></iotecoui:iconcard>
+		
+
+	</div>
+
+
+		<!-- ! Buyers Sellers  Block -->
+
+<iotecoui:marketingText></iotecoui:marketingText>
+
+	<!-- Industrie Slider Block -->
+	<iotecoui:MarketingCarousel></iotecoui:MarketingCarousel>
+	
+	
+	<!-- ! Industrie Slider Block -->
+
+
+<iotecoui:marketingText2></iotecoui:marketingText2>
+<iotecoui:marketingText3></iotecoui:marketingText3>	
+	
+
+	
+	<!-- ! Contact Us Block -->
+
+	<boschui:contactUs></boschui:contactUs>
+	<boschui:footer></boschui:footer>
+	<!-- ! Footer -->
+
+	<script src="resources/js/slider.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="resources/js/vendor/jquery-3.2.1.min.js"><\/script>')
+	</script>
+	<script src="resources/js/header.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<%@ tag  import="java.util.*,com.bosch.ui.model.*" %>
+<%@ attribute name="brandIdentifier"%>
+<%@ attribute name="pageLinksText" rtexprvalue="true"
+	required="false"  %>
+<%@ attribute name="pageLinksURL" rtexprvalue="true"
+	required="false"  %>
+	
+<%@ taglib prefix = "c" 
+   uri = "http://java.sun.com/jsp/jstl/core" %>
+   
+  <%
+	List<PageLink> pageLinkList = PageLink.getPageLinks(pageLinksText, pageLinksURL);
+	System.out.println(pageLinkList.size());
+	
+  %> 
+
+<!-- HEADER -->
+<header class="page-header">
+	<div class="logo-row">
+		<div class="container-fluid">
+			<a class="brand-logo" href="/">
+				<figure class="image-figure">
+					<div class="image-wrapper">
+						<picture class="image-picture"> <img class="image"
+							src="./resources/img/bosch_logo.png"> </picture>
+					</div>
+				</figure>
+			</a>
+
+			<div class="header-meta">
+				<nav class="navigation">
+					<ul class="navigation-meta">
+						<li class="navigation-item navigation-meta-item"><a
+							href="/bosch-group/"> <span class="link-text">Developer
+									Portal</span>
+						</a></li>
+						<li class="navigation-meta-language">
+							<ul class="language-selector">
+								<li class="language-selector-lang language-selector-lang-active">
+									<a href="/">English</a>
+								</li>
+								<li class="language-selector-lang"><a href="/de/">Deutsch</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<h4 class="brand-identifier">${brandIdentifier}</h4>
+			</div>
+		</div>
+	</div>
+
+	<div class="nav-row">
+		<div class="navigation navigation-main">
+			<nav>
+				<div class="navigation-main-wrapper">
+					<ul class="navigation-main-items">
+						<c:forEach items="pageLinkList" var="pageLink">
+							<li
+								class="navigation-item navigation-main-item navigation-main-item-active">
+								<a href="">${pageLink.text}</a>
+							</li>
+						</c:forEach>
+
+
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<div class="header-search container-fluid">
+			<div class="search-field">
+				<form class="search-field-form">
+					<div class="search-field-label">
+						<div class="search-field-label-text">
+							<span>This Products</span>
+						</div>
+					</div>
+					<input class="search-field-input" placeholder="Search" type="text">
+					<button type="submit" class="search-field-submit">
+						<img class="icon icon-search"
+							src="./resources/img/icon/Bosch-IC-search.svg"></img>
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="user-action-row">
+		<div class="container-fluid">
+			<div class="header-meta">
+				<nav class="navigation">
+					<ul class="navigation-meta">
+						<li class="navigation-user-action">
+							<ul>
+								<li class="user-action"><a
+									class="navigation-meta-link user-action-link" href="/">Sign
+										In / Register
+										<div class="icon-group">
+											<img src="./resources/img/icon/Bosch-IC-my-brand-frame.svg">
+										</div>
+								</a></li>
+								<li class="user-action"><a
+									class="navigation-meta-link user-action-link" href="/">
+										<div class="icon-group">
+											<img src="./resources/img/icon/Bosch-IC-shoppingcart.svg">
+										</div>
+								</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>

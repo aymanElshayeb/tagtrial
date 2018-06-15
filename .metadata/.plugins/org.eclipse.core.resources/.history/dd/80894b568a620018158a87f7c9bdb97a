@@ -1,0 +1,7 @@
+package com.bosch.ui.model;
+
+public class PageLink {
+	private String text;
+	private String url;
+
+}

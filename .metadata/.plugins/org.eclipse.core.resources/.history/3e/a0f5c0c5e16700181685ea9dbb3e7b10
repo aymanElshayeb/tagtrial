@@ -1,0 +1,50 @@
+package com.bosch.ui.model;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class PageLink {
+	private String text;
+	private String url;
+	public String getText() {
+		return text;
+	}
+	public void setText(String text) {
+		this.text = text;
+	}
+	public String getUrl() {
+		return url;
+	}
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	
+	static public List<PageLink> getPageLinks(String linkTexts, String linkURLs) {
+		
+		List<PageLink> pageLinkList  = new LinkedList<PageLink>();
+		
+		
+		if((text ==null)||(text.length()==0)) {
+			return pageLinkList; 
+		}
+		String[] pageLinkText =text.split(",");
+		String[] pageLinkUrl = url.split(",");
+		
+		
+		
+		for(int i=0;i<pageLinkText.length ;i++) {
+			PageLink pageLink = new PageLink();
+			String text = pageLinkText[i];
+			String url = "";
+			if(pageLinkUrl!=null && i<pageLinkUrl.length) {
+				 url =pageLinkUrl[i];
+			}
+			
+			
+			
+		}
+		
+		return null;
+	}
+
+}

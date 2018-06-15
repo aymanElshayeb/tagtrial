@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Landing page</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="resources/css/index.css">
+	<link rel="stylesheet" href="resources/css/header.css">
+	<link rel="stylesheet" href="resources/css/nav-block.css">
+
+	<link rel="stylesheet" href="resources/css/content-block.css">
+	<link rel="stylesheet" href="resources/css/slider.css">
+	<link rel="stylesheet" href="resources/css/footer.css">
+
+	<script src="resources/js/vendor/modernizr-3.5.0.min.js"></script>
+
+	<!--[if lt IE 9]>
+
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+			<script>
+				document.write('<script src="resources/js/vendor/fallback/html5shiv.min.js"><\/script>')
+				document.write('<script src="resources/js/vendor/fallback/jquery-1.4.4.min.js"><\/script>')
+				document.write('<script src="resources/js/vendor/fallback/jquery-extra-selectors.js"><\/script>')
+				document.write('<script src="resources/js/vendor/fallback/selectivizr.js"><\/script>')
+				document.write('<script src="resources/js/vendor/fallback/rem.min.js"><\/script>')
+				document.write('<script src="resources/js/vendor/fallback/fallback.js"><\/script>')
+			</script>
+			<link rel="stylesheet" href="resources/css/fallback.css">
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+   <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+   </script>
+<![endif]-->
+
+	<style>
+		header,
+		nav,
+		section,
+		article,
+		aside,
+		footer {
+			display: block;
+		}
+	</style>
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header class="page-header">
+		<div class="logo-row">
+			<div class="container-fluid">
+				<a class="brand-logo" href="/">
+					<figure class="image-figure">
+						<div class="image-wrapper">
+							<picture class="image-picture">
+								<img class="image" src="./resources/img/bosch_logo.png">
+							</picture>
+						</div>
+					</figure>
+				</a>
+
+				<div class="header-meta">
+					<nav class="navigation">
+						<ul class="navigation-meta">
+							<li class="navigation-item navigation-meta-item">
+								<a href="/bosch-group/">
+									<span class="link-text">Developer Portal</span>
+								</a>
+							</li>
+							<li class="navigation-meta-language">
+								<ul class="language-selector">
+									<li class="language-selector-lang language-selector-lang-active">
+										<a href="/">English</a>
+									</li>
+									<li class="language-selector-lang">
+										<a href="/de/">Deutsch</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<h4 class="brand-identifier">Bosch IoT Marketplace</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="nav-row">
+			<div class="navigation navigation-main">
+				<nav>
+					<div class="navigation-main-wrapper">
+						<ul class="navigation-main-items">
+							<li class="navigation-item navigation-main-item navigation-main-item-active">
+								<a>
+									Discover
+								</a>
+							</li>
+							<li class="navigation-item navigation-main-item">
+								<a>
+									Solutions
+								</a>
+							</li>
+							<li class="navigation-item navigation-main-item">
+								<a>
+									Community
+								</a>
+							</li>
+							<li class="navigation-item navigation-main-item">
+								<a>
+									Support
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+			<div class="header-search container-fluid">
+				<div class="search-field">
+					<form class="search-field-form">
+						<div class="search-field-label">
+							<div class="search-field-label-text">
+								<span>This Products</span>
+							</div>
+						</div>
+						<input class="search-field-input" placeholder="Search" type="text">
+						<button type="submit" class="search-field-submit">
+							<img class="icon icon-search" src="./resources/img/icon/Bosch-IC-search.svg"></img>
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="user-action-row">
+			<div class="container-fluid">
+				<div class="header-meta">
+					<nav class="navigation">
+						<ul class="navigation-meta">
+							<li class="navigation-user-action">
+								<ul>
+									<li class="user-action">
+										<a class="navigation-meta-link user-action-link" href="/">Sign In / Register
+											<div class="icon-group">
+												<img src="./resources/img/icon/Bosch-IC-my-brand-frame.svg">
+											</div>
+										</a>
+									</li>
+									<li class="user-action">
+										<a class="navigation-meta-link user-action-link" href="/">
+											<div class="icon-group">
+												<img src="./resources/img/icon/Bosch-IC-shoppingcart.svg">
+											</div>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="header-image-wrapper">
+		<img class="banner-image" src="./resources/img/background-landingpage-darker.jpg">
+		<div class="image-banner-row">
+			<div class="container-fluid">
+				<div class="header-content">
+					<h1>Welcome to the world’s</h1>
+					<h1>simply connected marketplace</h1>
+					<h5>Where IoT solutions and services are found, connected and delivered</h5>
+					<div class="header-main-btn-wrapper">
+						<div class="header-main-btn">
+							<a href="/">
+								<div class="header-main-btn-text">Find your solution</div>
+								<div class="header-main-btn-mask"></div>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="nav-block-section">
+		<div class="divider">
+			<img src="./resources/img/icon/dot-white.png">
+			<img src="./resources/img/icon/divider-white.png">
+			<img src="./resources/img/icon/divider-gray.png">
+		</div>
+		<div class="container-fluid">
+			<a class="nav-block">
+				<div class="big-icon-group">
+					<div class="icon-frame"></div>
+					<div class="icon-inside-cart"></div>
+					<div class="icon-frame icon-selected"></div>
+					<div class="icon-inside-cart icon-selected"></div>
+				</div>
+				<h4>Open IoT Marketplace</h4>
+				<p>
+					<span>Buy and sell IoT software, services and products across multiple industries</span>
+				</p>
+			</a>
+			<a class="nav-block">
+				<div class="big-icon-group">
+					<div class="icon-frame"></div>
+					<div class="icon-inside-rocket"></div>
+					<div class="icon-frame icon-selected"></div>
+					<div class="icon-inside-rocket icon-selected"></div>
+				</div>
+				<h4>Powerful Solutions</h4>
+				<p>
+					<span>A new offering of highly interoperable IoT software, services and products, hosted by Bosch</span>
+				</p>
+			</a>
+			<a class="nav-block">
+				<div class="big-icon-group">
+					<div class="icon-frame"></div>
+					<div class="icon-inside-script"></div>
+					<div class="icon-frame icon-selected"></div>
+					<div class="icon-inside-script icon-selected"></div>
+				</div>
+				<h4>Developer Portal</h4>
+				<p>
+					<span>Access API’s, software, tools and support from developer peer groups and Bosch</span>
+				</p>
+			</a>
+			<a class="nav-block">
+				<div class="big-icon-group">
+					<img class="icon-frame">
+					<img class="icon-inside-secured">
+					<img class="icon-frame icon-selected">
+					<img class="icon-inside-secured icon-selected">
+				</div>
+				<h4>Secure Ecosystem</h4>
+				<p>
+					<span>High level security and stability for customers across all industries</span>
+				</p>
+			</a>
+		</div>
+
+	</div>
+
+	<!-- Buyers Sellers Block -->
+	<section class="buyers-sellers-section">
+		<p class="buyers-sellers-title">
+			<span class="block-header">Where buyers and sellers of</span>
+			<Span class="block-header">cross-industry IoT products, services</span>
+			<Span class="block-header">and solutions meet</span>
+		</p>
+		<p class="block-content">
+			<span>The Bosch IoT Marketplace offers secure collaboration for buying and selling IoT products, services and solutions that
+				can be developed with the help of the Developer Portal. By bringing together our partners, customers, developers and
+				different Bosch Domains, this platform is the perfect breeding ground for your business to generate new business models
+				and additional revenue streams.</span>
+		</p>
+		<p class="block-content block-content-width">
+			<span class="block-content-parent">
+				<span>1.</span>
+				<span class="block-content-child">For Customers: The Bosch IoT Marketplace provides access to some of the most innovative, state-of-the-art, end-to-end,
+					IoT solutions and services currently available, all developed within a trustworthy environment. To read more about this
+					go to: www.xxx.xxx
+				</span>
+			</span>
+			<span class="block-content-parent">
+				<span>2.</span>
+				<span class="block-content-child">For Partners & Resellers: The Bosch IoT Marketplace allows both partners and resellers to manage and market IoT solutions,
+					software, tools and services running in the Bosch IoT Cloud and other (cloud) environments. To find out more contact
+					our consultancy team at: www.xxx.xx
+				</span>
+			</span>
+			<span class="block-content-parent">
+				<span>3.</span>
+				<span class="block-content-child"> Developers: The Bosch Developer Portal allows developers to build and deploy their own IoT buildings blocks and connect
+					with the world’s foremost IoT Marketplace. The Developer Portal also provides a bank of re-usable software components,
+					blueprints, sensors and documentation It also allows developers to sell their own solutions in the Bosch IoT Marketplace
+					and benefit from a seamless, yet simple selling experience, to reach a broad IoT focused audience. To find out more
+					see the Bosch Developer Portal at: www.xxx.xx
+				</span>
+			</span>
+		</p>
+	</section>
+	<!-- ! Buyers Sellers  Block -->
+
+	<!-- Industrie Slider Block -->
+	<section class="industrie-section">
+		<p>
+			<span class="industrie-header main">Our products for Industrie 4.0</span>
+			<Span class="industrie-header">Enabling a connected industry</span>
+		</p>
+		<div class="slide-container">
+			<div class="industrie-slides slide-container slider-animate-right">
+				<div class="slider-container-left">
+					<div class="slider-container image">
+						<img class="image-height" src="resources/img/u70.png">
+					</div>
+					<div class="slider-container content banner">
+						<div class="text-block">
+							<span class="text-content-title">
+								"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+							</span>
+
+							<div class="text-content-data">
+								<span class="slider-left">
+									<svg height="20" width="200">
+										<g fill="none" stroke="#ffffff">
+											<path stroke-width="1" d="M9 20 8015 0" />
+										</g>
+									</svg>
+								</span>
+								<span class="slider-right">AUTHOR NAME, DEPARTMENT</span>
+								<span class="slider-right">COMPANY NAME</span>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slider-container-right">
+					<div class="slider-container content headers even-headers">
+						<span class="main">Solution</span>
+						<Span class="sub">Lorem</span>
+						<Span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</span>
+					</div>
+					<div class="slider-container image">
+						<img class="image-height" src="resources/img/u70.png">
+					</div>
+				</div>
+			</div>
+
+			<div class="industrie-slides slide-container slider-animate-right">
+				<div class="slider-container-right">
+					<div class="slider-container content banner even-left">
+						<div class="text-block">
+							<span class="text-content-title">
+								"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+							</span>
+
+							<div class="text-content-data">
+								<span class="slider-left">
+									<svg height="20" width="200">
+										<g fill="none" stroke="#ffffff">
+											<path stroke-width="1" d="M9 20 8015 0" />
+										</g>
+									</svg>
+								</span>
+								<span class="slider-right">AUTHOR NAME, DEPARTMENT</span>
+								<span class="slider-right">COMPANY NAME</span>
+
+							</div>
+						</div>
+					</div>
+					<div class="slider-container image">
+						<img class="image-height" src="resources/img/u70.png">
+					</div>
+				</div>
+				<div class="slider-container-left">
+					<div class="slider-container image">
+						<img class="image-height" src="resources/img/u70.png">
+					</div>
+					<div class="slider-container content headers even-right">
+						<span class="main">Solution</span>
+						<Span class="sub">Lorem</span>
+						<Span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="industrie-slides slide-container slider-animate-right">
+				<div class="slider-container-left">
+					<div class="slider-container image">
+						<img class="image-height" src="resources/img/u70.png">
+					</div>
+					<div class="slider-container content banner">
+						<div class="text-block">
+							<span class="text-content-title">
+								"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+							</span>
+
+							<div class="text-content-data">
+								<span class="slider-left">
+									<svg height="20" width="200">
+										<g fill="none" stroke="#ffffff">
+											<path stroke-width="1" d="M9 20 8015 0" />
+										</g>
+									</svg>
+								</span>
+								<span class="slider-right">AUTHOR NAME, DEPARTMENT</span>
+								<span class="slider-right">COMPANY NAME</span>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slider-container-right">
+					<div class="slider-container content headers even-headers">
+						<span class="main">Solution</span>
+						<Span class="sub">Lorem</span>
+						<Span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</span>
+					</div>
+					<div class="slider-container image">
+						<img class="image-height" src="resources/img/u70.png">
+					</div>
+				</div>
+			</div>
+
+			<div class="slide-buttons" align="center">
+				<p>
+					<span class="slider-badge slider-transparent slider-hover-white" onclick="currentDiv(1)"></span>
+				</p>
+				<p>
+					<span class="slider-badge slider-transparent slider-hover-white" onclick="currentDiv(2)"></span>
+				</p>
+				<p>
+					<span class="slider-badge slider-transparent slider-hover-white" onclick="currentDiv(3)"></span>
+				</p>
+			</div>
+		</div>
+
+
+	</section>
+	<!-- ! Industrie Slider Block -->
+
+
+	<!-- Developers Meet Block -->
+	<section class="developers-section">
+		<p class="developers-title">
+			<span class="block-header">Here's where the developers meet</span>
+			<Span class="block-header">to create, innovate and build the IoT future</span>
+		</p>
+
+		<p class="block-content">
+			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+			Duis exerci tation ullamcorper autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+			illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+			zzril exerci tation ullamcorper delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+	</section>
+	<!-- ! Developers Meet Block -->
+
+	<!-- Security Info Block -->
+	<section class="security-section">
+		<p class="security-title">
+			<span class="block-header">Security Information</span>
+		</p>
+		<p class="block-content">
+			Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla
+			facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+			te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+			ut laoreet dolore magna aliquam erat volutpat.
+		</p>
+		<p class="block-content">
+			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+			Duis exerci tation ullamcorper autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+			illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+			zzril exerci tation ullamcorper delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+	</section>
+	<!-- ! Security Info Block -->
+
+	<!-- Contact Us Block -->
+	<section class="contactus-banner">
+		<div class="container-fluid">
+			<div class="footer-main">
+				<section class="section-left">
+					<p>
+						<span class="contact-title">Contact us</span>
+					</p>
+					<div class="user">
+						<p>
+							<img class="user-img" src="resources/img/u4.png">
+						</p>
+						<span class="contact-content">Contact Name</span>
+						<br>
+						<br>
+						<span class="contact-name">Contact Name</span>
+						<br>
+						<span class="contact-content">email@Bosch</span>
+						<p class="social-section">
+							<span class="social-image social-image-facebook"></span>
+							<span class="social-image social-image-linkedin"></span>
+							<span class="social-image social-image-twitter"></span>
+						</p>
+					</div>
+
+				</section>
+				<div class="divider"></div>
+				<section class="section-right">
+					<p>
+						<span class="contact-title ">Bosch IoT Ecosystem</span>
+					</p>
+					<div>
+						<a href="https://developer.bosch.com/">
+							<span class="contact-link"> Portal</span>
+							<span class="social-image social-arrow-right"></span>
+						</a>
+					</div>
+					<div>
+						<a href="JavaScript:Void(0);">
+							<span class="contact-link ">Thingbook</span>
+							<span class="social-image social-arrow-right"></span>
+
+						</a>
+					</div>
+					<div>
+						<a href="https://developer.bosch.commarketplace.bosch.com/">
+							<span class="contact-link ">IoT Marketplace</span>
+							<span class="social-image social-arrow-right"></span>
+						</a>
+					</div>
+					<div>
+						<a href="mailto:iot.consulting@bosch.com">
+							<span class="contact-link ">IoT Consulting</span>
+							<span class="social-image social-arrow-right"></span>
+						</a>
+					</div>
+				</section>
+			</div>
+		</div>
+	</section>
+	<!-- ! Contact Us Block -->
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div>
+			<div class="footer-bottom">
+				<p>
+					<span class="footer-copyrights ">© 2017 Robert Bosch GmbH</span>
+					<span class="footer-nav ">
+						<a>Contact us</a>
+					</span>
+
+					<span class="footer-nav ">
+						<a>Terms of use</a>
+					</span>
+
+					<span class="footer-nav ">
+						<a>Bosch Group</a>
+					</span>
+				</p>
+			</div>
+
+			<div class="footer-supergraphic "></div>
+		</div>
+	</footer>
+	<!-- ! Footer -->
+
+	<script src="resources/js/slider.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="resources/js/vendor/jquery-3.2.1.min.js"><\/script>')
+	</script>
+	<script src="resources/js/header.js"></script>
+
+</body>
+
+</html>

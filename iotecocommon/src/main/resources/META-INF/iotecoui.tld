@@ -1,0 +1,37 @@
+<taglib
+    xsi:schemaLocation=
+    "http://java.sun.com/xml/ns/javaee web-jsptaglibrary_2_1.xsd"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     version="2.1">
+    <tlib-version>1.0</tlib-version>
+    <short-name>iotecoui</short-name>
+    <uri>http://bosch.com/ioteco/taglib/custom</uri>
+    
+    
+    <tag-file>
+        <name>iconcard</name>
+        <path>/META-INF/tags/iconcard.tag</path>
+    </tag-file>
+    
+     <tag-file>
+        <name>marketingText</name>
+        <path>/META-INF/tags/marketingText.tag</path>
+    </tag-file>
+    
+     <tag-file>
+        <name>marketingText2</name>
+        <path>/META-INF/tags/marketingText2.tag</path>
+    </tag-file>
+    
+     <tag-file>
+        <name>marketingText3</name>
+        <path>/META-INF/tags/marketingText3.tag</path>
+    </tag-file>
+    
+    <tag-file>
+        <name>MarketingCarousel</name>
+        <path>/META-INF/tags/MarketingCarousel.tag</path>
+    </tag-file>
+    
+</taglib>

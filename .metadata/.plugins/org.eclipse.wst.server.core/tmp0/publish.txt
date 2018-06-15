@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Jun 05 17:51:55 CEST 2018
+org.eclipse.jst.j2ee.server\:iotecocommon=WEB-INF/lib/com.bosch.ui.ioteco.jsp.tags-common-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:common=WEB-INF/lib/com.bosch.ui.jsp.tags-common-0.0.1-SNAPSHOT.jar

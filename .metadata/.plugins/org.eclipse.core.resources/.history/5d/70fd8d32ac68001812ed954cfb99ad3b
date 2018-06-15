@@ -1,0 +1,9 @@
+package com.bosch.util;
+
+public class LocalLoaderFactory {
+
+	public ClassLoader getLocalClassLoader() {
+	
+		return this.getClass().getClassLoader();
+	}
+}

@@ -1,0 +1,45 @@
+<taglib
+    xsi:schemaLocation=
+    "http://java.sun.com/xml/ns/javaee web-jsptaglibrary_2_1.xsd"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     version="2.1">
+    <tlib-version>1.0</tlib-version>
+    <short-name>boschui</short-name>
+    <uri>http://bosch.com/taglib/custom</uri>
+    
+    <tag-file>
+        <name>logo</name>
+        <path>/META-INF/tags/logo.tag</path> 
+    </tag-file>
+    
+    <tag-file>
+        <name>languageSelector</name>
+        <path>/META-INF/tags/languageSelector.tag</path> 
+    </tag-file>
+    
+    <tag-file>
+        <name>mainTab</name>
+        <path>/META-INF/tags/mainTab.tag</path> 
+    </tag-file>
+     <tag-file>
+        <name>header</name>
+        <path>/META-INF/tags/header.tag</path> 
+    </tag-file>
+    
+    <tag-file>
+        <name>primaryPageTeaser</name>
+        <path>/META-INF/tags/primaryPageTeaser.tag</path>
+    </tag-file>
+    <tag-file>
+        <name>contactUs</name>
+        <path>/META-INF/tags/contactUs.tag</path>
+    </tag-file>
+    
+     <tag-file>
+        <name>footer</name>
+        <path>/META-INF/tags/footer.tag</path>
+    </tag-file>
+    
+    
+</taglib>

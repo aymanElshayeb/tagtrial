@@ -1,0 +1,198 @@
+/* Security Info Block Styles */
+
+.security-section {
+    width: 606px;
+    margin: auto;
+    margin-bottom: 82px;
+}
+
+.security-title {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+/* Developers Meet Block Styles */
+
+.developers-section {
+    margin: auto;
+    margin-bottom: 86px;
+    margin-top: 40px;
+}
+
+.developers-title {
+    width: auto;
+    margin: auto;
+    margin-bottom: 59px;
+}
+
+
+/* Buyers Sellers Block Styles */
+
+.buyers-sellers-section {
+    margin-top: 86px;
+    margin-bottom: 97px;
+    display: block;
+    height: auto;
+    overflow: auto;
+}
+
+.buyers-sellers-title {
+    margin: auto;
+    margin-bottom: 82px;
+}
+
+
+/* Block Content Styles */
+
+.block-header {
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 52px;
+    text-align: center;
+    display: block;
+    background: -webkit-linear-gradient(left, #005691, #008ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.block-content {
+    margin-top: 1em;
+    width: 606px;
+    margin: auto;
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    text-align: left;
+    color: #000000;
+    background: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.block-content-width {
+    width: 632px;
+}
+
+.block-content-parent {
+    width: 646px;
+    float: right;
+}
+
+.block-content-child {
+    width: 620px;
+    float: right;
+}
+
+
+/* Contact Us Styles */
+
+.contactus-banner {
+    background-image: url('../img/u1_state0.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 83px;
+}
+
+.section-left {
+    width: 400px;
+    margin: 0 0 0 150px;
+    float: left;
+}
+
+.section-right {
+    width: 400px;
+    margin: 0 100px 0 100px;
+    float: right;
+}
+
+.user-img {
+    padding: .5em;
+    float: left;
+    height: 102px;
+    border-radius: 100px;
+    width: 102px;
+    margin-right: 22px;
+}
+
+.social-image {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.social-image-facebook {
+    background-image: url(../img/Bosch-IC-facebook-frame.svg);
+}
+
+.social-image-linkedin {
+    background-image: url(../img/Bosch-IC-linkedin-frame.svg);
+}
+
+.social-image-twitter {
+    background-image: url(../img/Bosch-IC-twitter-frame.svg);
+}
+
+.social-arrow-right {
+    background-image: url(../img/Bosch-IC-forward-right.svg);
+}
+
+.social-section {
+    margin: 22px 0px 77px 10px;
+}
+
+.contact-title {
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.contact-content {
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.contact-name {
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.contact-link {
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #ffffff;
+    float: left;
+    border-width: 0px;
+    left: 2px;
+    top: 2px;
+    word-wrap: break-word;
+}
+
+.divider {
+    border-width: 0px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    width: 1px;
+    height: 198px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p id="demo"></p>
+
+
+
+<script>
+var getQueryParameter = function(str, parameter) {
+	var parts = str.split(':');
+    var result = [];
+    for (var i=0; i<parts.length; i++) {
+    	if (parts[i] == parameter) {
+        	result.push(parts[i+1]);
+        }
+    }
+    return result;
+}
+
+var getParameterIndex = function(str, parameter) {
+	var parts = str.split(':');
+    var result = [];
+    for (var i=0; i<parts.length; i++) {
+    	if (parts[i] == parameter) {
+        	return i;
+        }
+    }
+    return -1;
+}
+
+var getModifiedValue = function(sarr, barr) {
+	for (var i=0; i<sarr.length; i++) {
+        if (sarr[i] != barr[i]) {
+            return barr[i];
+        }
+    }
+    return barr[barr.length - 1];
+}
+
+var rebuildQuery = function (currentQuery, parameter, value) {
+	var parts = currentQuery.split(':');
+    var result = [];
+    for (var i=0; i<parts.length; i++) {
+    	if (parts[i]) {
+        	if (parts[i] == parameter) {
+                i += 1;
+            } else {
+                result.push(parts[i]);
+            }
+        }
+    }
+    return ':' + result.join(':') + ':' + parameter + ':' + value;
+}
+var currentQuery = ':relevant:category:industry:category:naveen:category:smarthome:itemType:abc';
+var newValue = ':asd:category:smarthome:category:industry';
+var parts1 = getQueryParameter(currentQuery, 'category').sort();
+var parts2 = getQueryParameter(newValue, 'category').sort();
+var selected = '';
+if (parts1.length < parts2.length) {
+	selected = getModifiedValue(parts1, parts2);
+} else {
+	selected = getModifiedValue(parts2, parts1);
+}
+
+document.getElementById("demo").innerHTML = rebuildQuery(currentQuery, 'category', selected);
+</script>
+
+</body>
+</html>
+

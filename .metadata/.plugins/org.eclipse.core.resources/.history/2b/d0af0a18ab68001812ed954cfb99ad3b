@@ -1,0 +1,5 @@
+package com.bosch.util;
+
+public class LocalLoaderFactory {
+
+}

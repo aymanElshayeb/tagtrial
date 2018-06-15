@@ -1,0 +1,234 @@
+.page-header.invert:before {
+	background: #FFFFFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.brand-small {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.brand-small > img {
+	margin-left: 30px;
+	width: 135px;
+	height: 86px;
+}
+
+
+.fixed-background {
+	position: fixed;
+	top: 16px;
+	bottom: 52px;
+	left: 0;
+	width: 100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-image: url("../img/login-bg.jpg");
+}
+
+.register-panel {
+	position: relative;
+	margin: 155px auto;
+	width: 800px;
+	height: 557px;
+	background: #FFFFFF;
+}
+
+.register-panel-container {
+	padding: 55px;
+	padding-left: 60px;
+}
+
+.register-panel h3 {
+	font-family: "boschsans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 200;
+	padding-top: 10px;
+}
+
+.register-panel p {
+	font-family: "boschsans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 200;
+	font-size: 0.875rem;
+	padding-top: 6px;
+}
+
+.register-panel .icon-continue {
+	float: right;
+	font-size: 1rem;
+	margin-top: 25px;
+}
+
+.register-panel .icon-continue:after {
+	content:'';
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-image: url("../img/catalog/Bosch-IC-forward-right.svg");
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin-top: 3px;
+}
+
+.register-panel .icon-continue:hover:after {
+	background-image: url("../img/catalog/Bosch-IC-pager-right.svg");
+}
+
+.register-selection {
+	margin-top: 36px;
+}
+
+.register-selection .register-button {
+	width: 219px;
+	height: 271px;
+	float: left;
+	background: linear-gradient(90deg, rgba(33, 97, 141, 1) 0%, rgba(33, 97, 141, 1) 0%, rgba(0, 90, 143, 1) 100%, rgba(0, 90, 143, 1) 100%);
+}
+
+.register-selection > a:not(:last-child) .register-button {
+	margin-right: 13px;
+}
+
+.register-selection > a:nth-child(2) .register-button {
+	background: linear-gradient(90deg, rgba(0, 93, 146, 1) 0%, rgba(0, 93, 146, 1) 0%, rgba(0, 107, 162, 1) 100%, rgba(0, 107, 162, 1) 100%);
+}
+
+.register-selection > a:nth-child(3) .register-button {
+	background: linear-gradient(90deg, rgba(0, 108, 164, 1) 0%, rgba(0, 108, 164, 1) 0%, rgba(0, 124, 181, 1) 100%, rgba(0, 124, 181, 1) 100%);
+}
+
+.register-button .register-icon-outer-frame {
+	width: 100%;
+	height: 120px;
+	display: table;
+	margin-top: 40px;
+}
+
+.register-button .register-icon-frame {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.register-button .register-icon-frame > div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.register-button .icon-add-company {
+	width: 82px;
+	height: 69px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-image: url("../img/icon/iconaddcompany.svg");
+}
+
+.register-button:hover .icon-add-company {
+	width: 98px;
+	height: 83px;
+}
+
+.register-button .icon-add-user {
+	width: 71px;
+	height: 69px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-image: url("../img/icon/iconadduser.svg");
+}
+
+.register-button:hover .icon-add-user {
+	width: 85px;
+	height: 83px;
+}
+
+.register-button .icon-developer {
+	width: 87px;
+	height: 52px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-image: url("../img/icon/icondeveloper.svg");
+}
+
+.register-button:hover .icon-developer {
+	width: 104px;
+	height: 62px;
+}
+
+.register-button .register-text {
+	text-align: center;
+	width: 100%;
+}
+
+.register-button .register-text h5 {
+	width: 60%;
+	margin: 0 auto;
+	line-height: 30px;
+}
+
+.register-button:hover .register-text h5 {
+	display: none;
+}
+
+.register-button .register-detail-text {
+	color: #FFFFFF;
+	margin: 0 auto;
+	width: 90%;
+	display: none;
+}
+
+.register-button:hover .register-detail-text {
+	color: #FFFFFF;
+	margin: 0 auto;
+	width: 90%;
+	display: block;
+}
+
+
+.footer-login {
+	position: fixed;
+	bottom: 16px;
+	width: 100%;
+	left: 0;
+	background: #FFFFFF;
+	height: 46px;
+}
+
+.footer-login .footer-bottom {
+	margin-left: 30px;
+	margin-bottom: 12px;
+	margin-top: 10px;
+}
+
+.footer-login .footer-bottom > p {
+	margin: 0;
+}
+
+.footer-login .footer-copyrights {
+	font-size: 0.875rem;
+	font-family: "boschsans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 800;
+}
+
+.footer-login .footer-nav a {
+	font-size: 0.8125rem;
+	font-family: "boschsans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+}
+
+.footer-login:after {
+	position:fixed;
+	left:0;
+	width:100%;
+	height:16px;
+	content:'';
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-image: url("../img/supergraphic-bar.png");
+}

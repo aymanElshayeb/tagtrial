@@ -1,0 +1,34 @@
+package com.bosch.ui.model;
+
+import java.util.List;
+
+public class PageLink {
+	private String text;
+	private String url;
+	public String getText() {
+		return text;
+	}
+	public void setText(String text) {
+		this.text = text;
+	}
+	public String getUrl() {
+		return url;
+	}
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	
+	static public List<PageLink> getPageLinks(String text, String url) {
+		String[] pageLinkText =text.split(",");
+		String[] pageLinkUrl = url.split(",");
+		
+		List<PageLink> pageLinkList  = new LinkedList<PageLink>();
+		
+		for(int i=0;i<pageLinkText.length ;i++) {
+			
+		}
+		
+		return null;
+	}
+
+}

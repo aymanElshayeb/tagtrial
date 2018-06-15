@@ -1,0 +1,192 @@
+.catalog-section {
+	margin: auto;
+	margin-top: 43px;
+	margin-bottom: 83px;
+	width: 1140px;
+}
+
+.row {
+	margin-bottom: 45px;
+}
+
+.column {
+	float: left;
+	width: 264px;
+	margin-left: 21px;
+	height: 350px;
+	/* 	margin-top: 43px;
+ */
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.catalog-rating {
+	/* 	margin-bottom: 14px;
+ 		width: 84px;
+	*/
+	display: inline-block;
+}
+
+.catalog-title {
+	/* 	margin-bottom: 12px;
+ */
+	font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	font-weight: 200;
+	color: #000000;
+}
+
+.catalog-count {
+	/* 	margin-bottom: 17px;
+ */
+	font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 200;
+	color: #666666;
+}
+
+.catalog-description {
+	/* 	margin-bottom: 22px;
+ */
+	font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 200;
+	color: #000000;
+}
+
+.catalog-more {
+	/* 	margin-bottom: 22px;
+ */
+	font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	color: #005691;
+	cursor: pointer;
+	float: left;
+}
+
+.catalog-more.arrow {
+	width: 20px;
+	height: 20px;
+	margin-top: 2px;
+	float: right;
+	background-image: url(../img/catalog/Bosch-IC-forward-right.svg);
+}
+
+.catalog-img {
+	/* 	margin-bottom: 12px;
+ */
+	position: relative;
+}
+
+.catalog-rating-full {
+	width: 20px;
+	height: 20px;
+	margin-top: 2px;
+	float: left;
+	background: url(../img/catalog/u1091.png) no-repeat;
+}
+
+.catalog-rating-empty {
+	width: 20px;
+	height: 20px;
+	margin-top: 2px;
+	float: left;
+	background: url(../img/catalog/u1089.png) no-repeat;
+}
+
+.catalog-img.img {
+	width: 264px;
+	height: 160px;
+}
+
+.catalog-img.trend {
+	position: absolute;
+	top: 9px;
+	right: 6px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: white;
+	margin-bottom: 0px;
+}
+
+.catalog-img.square {
+	width: 50%;
+	height: 50%;
+	top: 25%;
+	margin: 0 auto;
+	position: relative;
+	background: #000000;
+}
+
+.catalog-img.circle {
+	width: 60%;
+	height: 60%;
+	top: 20%;
+	margin: 0 auto;
+	position: relative;
+	background: #000000;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.catalog-img.triangle {
+	width: 50%;
+	height: 50%;
+	top: 15%;
+	margin: 0 auto;
+	position: relative;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 15px solid #000000;
+}
+
+.catalog-pager-center {
+	text-align: center;
+	margin-top: 65px;
+}
+
+.catalog-pager {
+	display: inline-block;
+}
+
+.catalog-pager a {
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	margin: 0 4px;
+	font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 200;
+	color: #000000;
+}
+
+.catalog-pager a.active {
+	border-radius: 50%;
+	font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #005691;
+}
+
+.catalog-pager-arrow {
+	fill: #CFD0D1;
+}
+
+.catalog-pager-arrow:hover {
+	fill: #CFD0D1;
+}
+
+
+/* .pagination a:hover:not(.active) {
+	background-color: #ddd;
+	border-radius: 50%;
+} */

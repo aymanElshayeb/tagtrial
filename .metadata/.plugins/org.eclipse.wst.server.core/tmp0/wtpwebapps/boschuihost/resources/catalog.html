@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>POP</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav-block.css">
+	<link rel="stylesheet" href="css/sumoselect.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/catalog.css">
+	<link rel="stylesheet" href="css/filter-catalog.css">
+	
+
+</head>
+
+<body>
+    <!-- HEADER -->
+	<header class="page-header">
+		<div class="logo-row">
+			<div class="container-fluid">
+				<a class="brand-logo" href="/">
+					<figure class="image-figure">
+						<div class="image-wrapper">
+							<picture class="image-picture">
+								<img class="image" src="./img/bosch_logo.png">
+							</picture>
+						</div>
+					</figure>
+				</a>
+
+				<div class="header-meta">
+					<nav class="navigation">
+						<ul class="navigation-meta">
+							<li class="navigation-item navigation-meta-item">
+								<a href="/bosch-group/">
+									<span class="link-text">Developer Portal</span>
+								</a>
+							</li>
+							<li class="navigation-meta-language">
+								<ul class="language-selector">
+									<li class="language-selector-lang language-selector-lang-active">
+										<a href="/">English</a>
+									</li>
+									<li class="language-selector-lang">
+										<a href="/de/">Deutsch</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<h4 class="brand-identifier">Bosch IoT Marketplace</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="nav-row">
+			<div class="navigation navigation-main">
+				<nav>
+					<div class="navigation-main-wrapper">
+						<ul class="navigation-main-items">
+							<li class="navigation-item navigation-main-item navigation-main-item-active">
+								<a>
+									Discover
+								</a>
+							</li>
+							<li class="navigation-item navigation-main-item">
+								<a>
+									Solutions
+								</a>
+							</li>
+							<li class="navigation-item navigation-main-item">
+								<a>
+									Community
+								</a>
+							</li>
+							<li class="navigation-item navigation-main-item">
+								<a>
+									Support
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+			<div class="header-search container-fluid">
+				<div class="search-field">
+					<form class="search-field-form">
+						<div class="search-field-label">
+							<div class="search-field-label-text">
+								<span>This Products</span>
+							</div>
+						</div>
+						<input class="search-field-input" placeholder="Search" type="text">
+						<button type="submit" class="search-field-submit">
+							<img class="icon icon-search" src="./img/icon/Bosch-IC-search.svg"></img>
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="user-action-row">
+			<div class="container-fluid">
+				<div class="header-meta">
+					<nav class="navigation">
+						<ul class="navigation-meta">
+							<li class="navigation-user-action">
+								<ul>
+									<li class="user-action">
+										<a class="navigation-meta-link user-action-link" href="/">Sign In / Register
+											<div class="icon-group">
+												<img src="./img/icon/Bosch-IC-my-brand-frame.svg">
+											</div>
+										</a>
+									</li>
+									<li class="user-action">
+										<a class="navigation-meta-link user-action-link" href="/">
+											<div class="icon-group">
+												<img src="./img/icon/Bosch-IC-shoppingcart.svg">
+											</div>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="header-image-wrapper">
+		<img class="banner-image" src="./img/background-landingpage-darker.jpg">
+		<div class="image-banner-row">
+			<div class="container-fluid">
+				<div class="header-content">
+					<h1>Welcome to the world’s</h1>
+					<h1>simply connected marketplace</h1>
+					<h5>Where IoT solutions and services are found, connected and delivered</h5>
+					<div class="header-main-btn-wrapper">
+						<div class="header-main-btn">
+							<a href="/">
+								<div class="header-main-btn-text">Find your solution</div>
+								<div class="header-main-btn-mask"></div>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="filter-section">
+		<div class="filter-row">
+			<div class="container-fluid">
+				<div class="filter-block"> 
+					<div class="dropdown">
+						<div class="select">
+							<span>All Categories</span>
+							<img class="icon-down" src="./img/icon/Bosch-IC-down.svg">
+							<img class="icon-up" src="./img/icon/Bosch-IC-up.svg">
+						</div>
+						<input type="hidden" name="category">
+						<ul class="dropdown-menu">
+							<li data-value="1"> 
+								<a href="www.google.com">
+									<div class="category-icon-frame">
+										<div class="category-icon-circle"></div>
+									</div>
+									<div class="select-text">Industrie 4.0</div>
+								</a>
+							</li>
+							<li data-value="2">
+								<a href="www.google.com">
+								<div class="category-icon-frame">
+									<div class="category-icon-circle"></div>
+								</div>
+								<div class="select-text">Smart Home</div>
+								</a>
+							</li>
+							<li data-value="3">
+								<a href="www.google.com">
+								<div class="category-icon-frame">
+									<div class="category-icon-circle"></div>
+								</div>
+								<div class="select-text">Connected Mobility</div>
+								</a>
+							</li>
+							<li data-value="4">
+								<a href="www.google.com">
+								<div class="category-icon-frame">
+									<div class="category-icon-circle"></div>
+								</div>
+								<div class="select-text">Smart Cities</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="filter-block">
+					<form id="sort2">
+						<div class="selectDiv">
+							<select id="productTypeSelect" class="customSelect">
+								<option data-icon="category-icon-hardware" value="./catalog.html">Hardware</option>
+								<option data-icon="category-icon-software" value="./catalog.html">Software</option>
+								<option data-icon="category-icon-solution" value="./catalog.html">Solution</option>
+							</select>
+						</div>
+					</form>
+					
+				</div>
+				
+				<div class="filter-block float-right"> 
+					<form class="search-field-form">  
+						<input class="search-field-input" placeholder="Search Products" type="text">
+						<button type="submit" class="search-field-submit">
+							<img class="icon icon-search" src="./img/icon/Bosch-IC-search.svg"></img>
+						</button>
+					</form>
+				</div>
+				
+				<div class="filter-block float-right">
+					<form id="sort1">
+						<div class="selectDiv">
+							<select class="customSelect">
+								<option>Ascending</option>
+								<option>Descending</option>
+								<option>Name</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+    <section class="catalog-section">
+        <div>
+            <div class="row">
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p0.jpg">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img square"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+
+
+                        </span>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p1.jpg">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img square"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p2.png">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img square"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p3.jpg">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img square"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p4.jpg">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img circle"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p5.jpg">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img circle"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p6.jpg">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img circle"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p7.jpg">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img circle"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p8.jpg">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img triangle"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p9.jpg">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img triangle"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p10.jpg">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img triangle"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="catalog-img">
+                        <img class="catalog-img img" title="Product Type" src="img/catalog/p11.jpg">
+                        <div class="catalog-img trend">
+                            <div class="catalog-img triangle"></div>
+                        </div>
+
+                    </div>
+                    <div class="catalog-rating">
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-full"></span>
+                        <span class="catalog-img catalog-rating-empty"></span>
+                    </div>
+                    <div class="catalog-title">
+                        <span>Error Pareto Solution</span>
+                    </div>
+                    <div class="catalog-count">
+                        <span>15 65 87</span>
+                    </div>
+                    <div class="catalog-description">
+                        <p>Display the list of the most frequent error states occurred in his machines across all Machine operators
+                            using the ...</p>
+                    </div>
+                    <div class="catalog-more">
+                        <span>More Information
+                            <span class="catalog-more arrow"></span>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-pager-center">
+            <div class="catalog-pager">
+                <a href="javascript:void(0)">
+                    <div style="height:25px;width:25px" class="catalog-pager-arrow">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 192 192"
+                            enable-background="new 0 0 192 192" xml:space="preserve">
+                            <g id="Icon_x5F_contour">
+                                <g>
+                                    <polygon points="121.2,158.8 58.3,96 121.2,33.2 126.8,38.8 69.7,96 126.8,153.2 		" />
+                                </g>
+                            </g>
+                        </svg>
+
+                    </div>
+                </a>
+                <a href="javascript:void(0)">1</a>
+                <a href="javascript:void(0)" class="active">2</a>
+                <a href="javascript:void(0)">3</a>
+                <a href="javascript:void(0)">4</a>
+                <a href="javascript:void(0)">...</a>
+                <a href="javascript:void(0)">8</a>
+                <a href="javascript:void(0)">
+                    <div style="height:25px;width:25px" class="catalog-pager-arrow">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 192 192"
+                            enable-background="new 0 0 192 192" xml:space="preserve">
+                            <g id="Icon_x5F_contour">
+                                <g>
+                                    <polygon points="70.8,158.8 65.2,153.2 122.3,96 65.2,38.8 70.8,33.2 133.7,96 		" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div>
+            <div class="footer-bottom">
+                <p>
+                    <span class="footer-copyrights ">© 2017 Robert Bosch GmbH</span>
+                    <span class="footer-nav ">
+                        <a>Contact us</a>
+                    </span>
+
+                    <span class="footer-nav ">
+                        <a>Terms of use</a>
+                    </span>
+
+                    <span class="footer-nav ">
+                        <a>Bosch Group</a>
+                    </span>
+                </p>
+            </div>
+
+            <div class="footer-supergraphic "></div>
+        </div>
+    </footer>
+    <!-- ! Footer -->
+	<script>
+		window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
+	</script>
+	<script src="js/selectbox.js"></script>
+	<script src="js/jquery.sumoselect.js"></script>
+</body>
+
+</html>

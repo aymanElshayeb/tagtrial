@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+C:\aymanDocument\projects\bosch\code\boschtags\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1916490227.index
+3665305899.index
+459431273.index
+2580179848.index
+3867508992.index
+3306462300.index
+607458518.index
+3354674803.index
+1682816643.index

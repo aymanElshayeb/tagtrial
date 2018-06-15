@@ -1,0 +1,36 @@
+
+<%@taglib prefix="bosch" uri="http://bosch.com/taglib/custom"%>
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/fmt" prefix = "fmt" %>
+<%@ attribute name="brandIdentifier"%>
+<%@ attribute name="pageLinksText" rtexprvalue="true"
+	required="false"  %>
+<%@ attribute name="pageLinksURL" rtexprvalue="true"
+	required="false"  %>
+	
+
+   
+ 
+
+<!-- HEADER -->
+<header class="page-header">
+	<div class="logo-row">
+		<div class="container-fluid">
+			<bosch:logo></bosch:logo>
+			<div class="header-meta">
+				<bosch:languageSelector></bosch:languageSelector>
+				<h4 class="brand-identifier"> <fmt:message key = "iot.identifier" /></h4>
+			</div>
+		</div>
+	</div>
+	
+	<div class="nav-row">
+		<bosch:mainTab pageLinksText="${pageLinksText}" pageLinksURL ="${pageLinksURL}"></bosch:mainTab>
+		
+		<bosch:search></bosch:search>
+		
+	</div>
+
+	<div class="user-action-row">
+		
+	</div>
+</header>

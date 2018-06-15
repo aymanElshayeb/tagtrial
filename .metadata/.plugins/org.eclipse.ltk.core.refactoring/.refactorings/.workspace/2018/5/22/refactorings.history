@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;commons&apos; to &apos;iotecocommon&apos;&#x0D;&#x0A;- Original element: &apos;commons&apos;&#x0D;&#x0A;- Renamed element: &apos;commons&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;commons&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=commons" name="iotecocommon" references="true" stamp="1527503315765" version="1.0"/>
+</session>

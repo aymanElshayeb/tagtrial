@@ -1,0 +1,226 @@
+/* Industrie Block Styles */
+
+.industrie-section {
+    margin: auto;
+}
+
+.industrie-header {
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 52px;
+    text-align: center;
+    display: block;
+    color: #000000;
+}
+
+.industrie-header.main {
+    font-size: 36px;
+    color: #812581;
+    /*     margin-bottom: 31px;
+ */
+}
+
+.slide-container {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+    height: auto;
+    width: 1140px;
+    margin: auto;
+}
+
+.slider-container.image {
+    margin: 0 0 0px 0;
+}
+
+.image-height {
+    width: 558px !important;
+    height: 400px;
+}
+
+.slider-container.content {
+    margin: 0 0 0 0;
+    width: 461px;
+}
+
+.slider-container-left {
+    float: left !important;
+    width: 558px !important;
+}
+
+.slider-container-right {
+    float: right !important;
+    width: 558px !important;
+}
+
+.slider-container.content.banner {
+    border-width: 0px;
+    left: 0px;
+    top: 0px;
+    width: 461px;
+    height: 240px;
+    background: -webkit-linear-gradient(0deg, rgba(185, 2, 118, 1) 0%, rgba(185, 2, 118, 1) 0%, rgba(80, 35, 127, 1) 100%, rgba(80, 35, 127, 1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(185, 2, 118, 1) 0%, rgba(185, 2, 118, 1) 0%, rgba(80, 35, 127, 1) 100%, rgba(80, 35, 127, 1) 100%);
+    background: linear-gradient(90deg, rgba(185, 2, 118, 1) 0%, rgba(185, 2, 118, 1) 0%, rgba(80, 35, 127, 1) 100%, rgba(80, 35, 127, 1) 100%);
+    border: none;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    float: right;
+    margin-top: 24px;
+}
+
+.slider-container .text-block {
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.slider-container .text-content-title {
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.slider-container .text-content-data {
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    margin-top: 18px;
+}
+
+.slider-container.headers {
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 24px;
+    color: #000000;
+    display: block;
+    margin-bottom: 46px;
+    text-align: left;
+}
+
+.slider-container.headers .main {
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 24px;
+    color: #3F4199;
+    display: block;
+    height: 50px;
+}
+
+.slider-container.headers .sub {
+    font-family: "boschsans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #533396;
+    display: block;
+    height: 50px;
+}
+
+.slider-container.even-right {
+    float: right;
+    text-align: right;
+    margin-top: 116px !important;
+    margin-bottom: 0px !important;
+}
+
+.slider-container.even-left {
+    float: left !important;
+    margin-top: 0px !important;
+    margin-bottom: 24px;
+}
+
+.slider-container.even-headers {
+    margin-bottom: 120px !important;
+}
+
+.slide-container.slide-buttons {
+    margin-top: 40px;
+    height: 40px;
+}
+
+.industrie-slides {
+    display: none
+}
+
+.slider-badge {
+    border-radius: 50%;
+}
+
+.slider-badge {
+    cursor: pointer
+}
+
+.slider-badge {
+    height: 20px;
+    width: 20px;
+    color: #D4D7DA;
+    padding: 0
+}
+
+.slider-white {
+    height: 20px;
+    width: 20px;
+    color: #005691 !important;
+    border: 1px solid #005691 !important;
+}
+
+.slider-badge {
+    display: inline-block;
+    text-align: center;
+    /*    width: 68px; */
+}
+
+.slide-buttons p {
+    display: inline-block;
+    width: 68px;
+}
+
+.slider-transparent {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 5px solid #ffff;
+    background: #D4D7DA;
+    transition: border-color 0.5s ease;
+}
+
+.slider-white,
+.slider-hover-white:hover {
+    color: #005691!important;
+    background-color: #005691!important;
+    border: 1px solid #005691!important;
+    transition: all 0.7s ease;
+}
+
+.slider-animate-right {
+    position: relative;
+    animation: animateright 0.5s;
+}
+
+.slider-right {
+    float: right !important;
+}
+
+.slider-left {
+    float: left !important;
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+    }
+    to {
+        right: 0;
+    }
+}
